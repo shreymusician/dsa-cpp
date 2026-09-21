@@ -12,8 +12,7 @@ int main()
     {
         if(str[i] >= 'a' && str[i] <= 'z')
         {
-            int sp = str[i] - 97;
-            str[i] = 65 + sp;
+            str[i] = str[i] - 'a' + 'A';
         }
             
     }
