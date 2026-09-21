@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    char ch = 'a';
+    char ch = 'A';
 
     cout << int(ch);
 }
